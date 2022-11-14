@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  margin-top: 50px;
+  font-family: sans-serif; /* Add this line */
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  line-height: 50px;
+  background-color: rgba(0, 0, 0, 0.01);
+}
+
+header * {
+  display: inline;
+  height: 50px;
+}
+
+header ul {
+  padding: 0;
+}
+
+header li {
+  margin-left: 20px;
+}
+
+h5 {
+  color: #00000065;
+  margin-top: -14%;
+}
+
+section {
+  height: 110vh;
+  border: 1px solid #eaebef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#student .profile-img {
+  object-fit: contain;
+  width: 300px;
+  border: 1px solid #eaebef;
+  box-shadow: 0 2px 28px 0 rgb(68 87 101 / 10%);
+}
+
+footer {
+  text-align: center;
+  padding: 50px;
+}
+
+#student h1 {
+  font-size: 65px;
+}
+
+section h2 {
+  font-size: 2.5em;
+}
+
+section h3 {
+  font-size: 1.5em;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+}
+
+#img_right {
+  position: absolute;
+  padding: 3px;
+}
+
+#one_com {
+  padding-bottom: 10px;
+}
